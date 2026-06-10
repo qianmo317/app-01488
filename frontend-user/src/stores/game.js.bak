@@ -126,7 +126,7 @@ export const useGameStore = defineStore('game', () => {
   function collectSun(sunId) {
     const index = suns.value.findIndex(s => s.id === sunId)
     if (index !== -1) {
-      sun.value = suns.value[index].value
+      sun.value += suns.value[index].value
       suns.value.splice(index, 1)
     }
   }
