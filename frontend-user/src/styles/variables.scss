@@ -1,0 +1,65 @@
+// 颜色变量 - 游戏主题色
+$primary-color: #4CAF50;
+$primary-light: #81C784;
+$primary-dark: #2E7D32;
+
+$secondary-color: #8D6E63;
+$secondary-light: #A1887F;
+$secondary-dark: #5D4037;
+
+$accent-color: #FFD700;
+$accent-light: #FFEB3B;
+$accent-dark: #FFA000;
+
+$danger-color: #E53935;
+$warning-color: #FB8C00;
+$success-color: #43A047;
+$info-color: #1E88E5;
+
+// 游戏背景色
+$bg-dark: #0d2818;
+$bg-medium: #1a472a;
+$bg-light: #2d5a3d;
+$bg-lawn: #7CB342;
+$bg-lawn-dark: #558B2F;
+
+$text-primary: #ffffff;
+$text-secondary: #b0b0b0;
+$text-muted: #6c757d;
+
+// 间距变量
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// 圆角变量
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+
+// 阴影变量
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+$shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+$shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.25);
+
+// 字体大小
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+$font-size-xxl: 32px;
+
+// 过渡动画
+$transition-fast: 0.15s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;
+
+// 游戏相关
+$cell-size: 80px;
+$grid-rows: 5;
+$grid-cols: 9;

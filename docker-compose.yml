@@ -1,0 +1,16 @@
+
+services:
+  frontend-user:
+    build:
+      context: ./frontend-user
+      dockerfile: Dockerfile
+    container_name: pvz-frontend
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+    networks:
+      - pvz-network
+
+networks:
+  pvz-network:
+    driver: bridge
